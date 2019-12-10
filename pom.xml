@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>com.eurowag.ciam.themes</groupId>
+	<artifactId>eurowag-theme</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>Eurowag CIAM: Themes</name>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>	
+    
+    <organization>
+        <name>W.A.G. payment solutions a.s.</name>
+        <url>http://www.eurowag.com</url>
+    </organization>
+    <inceptionYear>2020</inceptionYear>
+	
+	<developers>
+        <developer>
+            <id>miroslav.svoboda</id>
+            <name>Miroslav Svoboda</name>
+            <email>miroslav.svoboda@eurowag.com</email>
+            <url>https://www.linkedin.com/in/imsvoboda/</url>
+            <organization>W.A.G. payment solutions a.s.</organization>
+            <organizationUrl>http://www.eurowag.com</organizationUrl>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+            <properties>
+                <picUrl>https://www.gravatar.com/avatar/393799dc9bb482b23e8b370923d3bf19</picUrl>
+            </properties>
+        </developer>
+        <developer>
+			<id>viliam.litavec</id>
+			<name>Viliam Litavec</name>
+			<email>viliam.litavec@eurowag.com</email>
+            <url>https://www.linkedin.com/in/vl-b5978393/</url>
+            <organization>W.A.G. payment solutions a.s.</organization>
+            <organizationUrl>http://www.eurowag.com</organizationUrl>
+			<roles>
+				<role>developer</role>
+			</roles>
+            <properties>
+                <picUrl>https://www.gravatar.com/avatar/eaa4704721b5bd598aa335e3f8267c69</picUrl>
+            </properties>
+		</developer>
+    </developers>
+	
+	<licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+    
+    <build>
+        <finalName>eurowag-themes</finalName>
+    </build>
+</project>

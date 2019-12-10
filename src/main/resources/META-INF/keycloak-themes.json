@@ -1,0 +1,18 @@
+{
+    "themes": [{
+        "name" : "eurowag",
+        "types": [ "login" ]
+    },{
+        "name" : "awesim",
+        "types": [ "login" ]
+    },{
+        "name" : "gofly",
+        "types": [ "login" ]
+    },{
+        "name" : "osc",
+        "types": [ "login" ]
+    },{
+        "name" : "totalism",
+        "types": [ "login" ]
+    }]
+}
